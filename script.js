@@ -88,12 +88,14 @@ add.onclick = function () {
         tasks.push(text)
         localStorage.setItem('tasks', JSON.stringify(tasks))
         task.value = ''
-    }
-    // add a task to the list
-    list.innerHTML +=   `<li>
+        
+        // add a task to the list
+        list.innerHTML +=   `<li>
                                 <lable>${text}</lable>    
                                 <i id="" class="far fa-trash-alt delete"></i> 
                             </li>`
+    }
+    
 
 };
 
