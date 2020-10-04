@@ -87,6 +87,8 @@ li{
     border-radius: 10px;
     transition: .4s;
     text-align: left;
+    color: #444;
+    font-size: 16px;
 }
 .elements i{
     color: #444;
@@ -122,3 +124,8 @@ li:hover{
     text-decoration: line-through;
     background-color: #e0e0e0;
 }
+
+/* drag and drop */
+.over {
+    transform: scale(1.1, 1.1);
+  }
